@@ -1,4 +1,4 @@
-# Flutter-Application-for-a-To-Do-Management-System
+# To-Do-Management-System
 
 FEATURES:
 
@@ -21,5 +21,4 @@ TECHNOLOGY USED:
 
 Flutter: Framework for building cross-platform mobile applications.
 Dart: Programming language for application logic.
-State Management: Simple StatefulWidget (or use Provider/Riverpod for scalability).
-Local Data Storage: Use SQLite or Hive for task persistence (optional).
+
