@@ -4,16 +4,21 @@ FEATURES:
 
 Add Tasks:
 Create a new task with a title and optional description.
+
 View Tasks:
 See a categorized list of tasks:
+
 Pending Tasks:
 Tasks yet to be completed.
+
 Completed Tasks: 
 Tasks marked as done.
+
 Update Tasks:
 Mark tasks as completed using a checkbox.
 Edit task details (title and description).
 Delete Tasks: 
+
 Remove unwanted tasks .
 Filter Tasks: 
 Toggle between "All," "Pending," and "Completed" tasks (optional extension).
