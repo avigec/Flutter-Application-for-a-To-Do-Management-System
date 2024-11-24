@@ -20,5 +20,6 @@ Tasks are displayed in categorized sections for easy navigation.
 TECHNOLOGY USED:
 
 Flutter: Framework for building cross-platform mobile applications.
+
 Dart: Programming language for application logic.
 
