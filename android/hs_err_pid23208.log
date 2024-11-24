@@ -1,0 +1,33 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ff8ac3fa594, pid=23208, tid=7752
+#
+# JRE version: OpenJDK Runtime Environment (21.0.3) (build 21.0.3+-12282718-b509.11)
+# Java VM: OpenJDK 64-Bit Server VM (21.0.3+-12282718-b509.11, mixed mode, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x3da594]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://youtrack.jetbrains.com/issues/JBR
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -XX:MaxMetaspaceSize=2G -XX:+HeapDumpOnOutOfMemoryError --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx4G -Dfile.encoding=UTF-8 -Duser.country=IN -Duser.language=en -Duser.variant -javaagent:C:\Users\Avinash Kumar\.gradle\wrapper\dists\gradle-8.9-all\6m0mbzute7p0zdleavqlib88a\gradle-8.9\lib\agents\gradle-instrumentation-agent-8.9.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.9
+
+Host: AMD Ryzen 5 5600H with Radeon Graphics         , 12 cores, 7G,  Windows 11 , 64 bit Build 22621 (10.0.22621.4391)
+Time: Wed Nov 20 02:07:49 2024 India Standard Time elapsed time: 144.619278 seconds (0d 0h 2m 24s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000207322182d0):  JavaThread "Exec process Thread 4"        [_thread_in_vm, id=7752, stack(0x000000fe5e200000,0x000000fe5e300000) (1024K)]
+
+Stack: [0x000000fe5e200000,0x000000fe5e300000],  sp=0x000000fe5e2fac10,  free space=1003k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x3da594]
+V  [jvm.dll+0x6caed2]
+V  [jvm.dll+0x3da32e]
+V  [jvm.dll+0x44cf22]
